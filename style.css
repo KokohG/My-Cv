@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.844);
+    font-family: 'Cambria,Georgia,serif';
+    justify-content: center;
+    align-items: center;
+}
+.wrapper{
+    background-color: #fff;
+    border: none;
+    width: 800px;
+    padding: 25px;
+    margin: 25px auto 0;
+    position: relative;
+    display: flex;
+    height: 90%;
+    justify-content: center;
+    flex-direction: column;
+}
+.heading{
+    text-align: center;
+    padding-top: 50px;
+}
+.heading h1{
+    font-size: 30px;
+}
+.heading .no{
+    text-decoration: none;
+}
+.heading a{
+    color: #000;
+}
+.statement h1{
+    font-size: 20px;
+    background-color: #000;
+    color: #fff;
+    margin: 20px 250px 10px 250px;
+    text-align: center;
+}
+.body{
+    text-justify: auto;
+    text-align: justify;
+    margin-left: 35px;
+    margin-left: 35px;
+    line-height: 21px;
+}
+.per h1{
+    font-size: 20px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    margin: 40px 250px 10px 300px;
+}
+.per ul li{
+    font-size: 15px;
+    margin-left: 75px;
+    line-height: 18px;
+}
+.edu h1{
+    font-size: 20px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    margin: 40px 300px 10px 300px;
+}
+.edu h5{
+    font-size: 15px;
+    margin-left: 35px;
+}
+.cert{
+    margin-top: 15px;
+}
+.edu li{
+    margin-left: 75px;
+    font-weight: 600;
+}
+.edu p{
+    margin-bottom: 15px;
+    font-size: 15px;
+    margin-left: 75px;
+    font-weight: 600;
+}
+.exp h1{
+    font-size: 20px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    margin: 40px 250px 10px 250px;
+}
+.exp li{
+    margin-left: 75px;
+    font-weight: 600;
+    font-size: 15px;
+}
+.exp p{
+    margin-bottom: 15px;
+    font-size: 15px;
+    margin-left: 75px;
+}
+.exp ol{
+    margin-left: 85px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+.skill h1{
+    font-size: 20px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    margin: 40px 180px 10px 180px;
+}
+.skill li{
+    margin-left: 75px;
+    font-size: 15px;
+    line-height: 25px;
+}
+.skill p{
+    margin-left: 75px;
+    font-size: 15px;
+}
+.hob h1{
+    font-size: 20px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    margin: 40px 300px 10px 300px;
+}
+.hob li{
+    margin-left: 75px;
+    font-size: 15px;
+    line-height: 20px;
+}
+.ref h1{
+    font-size: 20px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    margin: 40px 300px 10px 300px;
+}
+.ref li{
+    margin-left: 75px;
+    font-size: 15px;
+}
